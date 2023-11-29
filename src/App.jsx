@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <div className="flex flex-col items-center justify-center">
-        <h1 className="mb-4 mt-3 text-4xl font-bold text-gray-900">
+        <h1 className="mb-4 mt-3 text-5xl font-bold text-gray-900">
           Armonie Diverse
         </h1>
 
