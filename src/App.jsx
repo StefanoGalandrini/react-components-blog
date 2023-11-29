@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css';
 
 import Card from './components/Card';
+import TheFooter from './components/TheFooter';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -9,10 +10,15 @@ function App() {
   return (
     <>
       <div className="flex flex-col items-center justify-center">
-        <h1 className="mb-10 mt-6 text-4xl font-bold">Armonie Diverse</h1>
+        <h1 className="mb-4 mt-3 text-4xl font-bold text-gray-900">
+          Armonie Diverse
+        </h1>
 
         {/* Componente "Card" */}
         <Card />
+
+        {/* Componente "Card" */}
+        <TheFooter />
       </div>
     </>
   );
