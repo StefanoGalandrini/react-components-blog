@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div className="flex flex-col items-center justify-center">
-        <h1 className="mb-10 mt-6 text-4xl font-bold">Un blog per ricordare</h1>
+        <h1 className="mb-10 mt-6 text-4xl font-bold">Armonie Diverse</h1>
 
         {/* Componente "Card" */}
         <Card />
